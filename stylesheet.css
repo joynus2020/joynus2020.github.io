@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width-max:1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 100px 0 50px 0;
+  background-image: url(main.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+.main-text{
+  padding-top: 20px;
+  font-size: 20px;
+  font-style: bold;
+}
+.top-wrapper h1 {
+
+  font-family:monospace;
+  font-size: 90px;
+  letter-spacing: 5px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+  cursor: pointer;
+  box-shadow: 0 7px #28385E;
+}
+
+.facebook:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.twitter {
+  background-color: #55acee;
+  cursor: pointer;
+  box-shadow: 0 7px #4072B3;
+}
+
+.twitter:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 13px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-top: 8px;
+}
+
+.login {
+  padding: 10px 30px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.login:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+.lesson-text{
+font-family: serif;
+font-size: 20px;
+}
+.heading h1 {
+font-family:monospace;
+font-size: 40px;
+}
+.sample {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.app {
+
+  display: inline-block;
+}
+.app img{
+    width: 120px;
+}
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+.lesson-icon img{
+  height:200px;
+  width:200px;
+  border-radius: 20px;
+}
+.lesson-icon p {
+  position: absolute;
+  font-weight: bold;
+  top: 75%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 200px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+.intro-wrapper {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: pink;
+  text-align: center;
+}
+.inner{
+    display: block;
+    background: rgb(255, 255, 255);
+    border-radius: 24px;
+  }
+.intro {
+  float: left;
+  width: 50%;
+  border-radius: 30px;
+}
+
+.intro-icon {
+  position: relative;
+}
+.intro-icon img{
+  height:200px;
+  width:200px;
+  border-radius: 90px;
+}
+
+.text-contents {
+  width: 200px;
+  display: inline-block;
+  text-align: left;
+  margin-top: 15px;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+/* -------------------- CSSはここから追加していきましょう！ -------------------- */
+.menu-icon {
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* デフォルトではメニューアイコンは非表示に */
+  display: none;
+}
+.clear {
+  clear:left;
+}
